@@ -1,0 +1,468 @@
+:root {
+    --primary-color: powderblue;
+    --active: green;
+    --inactive: grey;
+
+}
+body {
+    font-family: 'Montserrat',
+    sans-serif;
+    background-color: palegreen;
+    max-width: 900px;
+    margin: auto;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+
+img {
+height: 300px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.welcome {
+    text-align: center;
+}
+
+.avatar-container {
+    display: inline-block;
+    position: relative;
+}
+
+.avatar {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar--s {
+width: 5rem;
+height: 5rem;
+}
+
+.avatar--m {
+width: 10rem;
+height: 10rem;
+}
+
+.avatar--l {
+width: 15rem;
+height: 15rem;
+}
+
+.alert{
+width:50%;
+margin:20px auto;
+padding:30px;
+position:relative;
+border-radius:5px;
+box-shadow:0 0 15px 5px #ccc;
+background-color:white;
+
+}
+
+.warning-alert{
+    width:50%;
+    margin:20px auto;
+    padding:30px;
+    position:relative;
+    border-radius:5px;
+    box-shadow:0 0 15px 5px #ccc;
+    background-color:yellow;
+    
+}
+
+.danger-alert{
+    width:50%;
+    margin:20px auto;
+    padding:30px;
+    position:relative;
+    border-radius:5px;
+    box-shadow:0 0 15px 5px #ccc;
+    background-color:red;
+    
+}
+
+.success-alert{
+    width:50%;
+    margin:20px auto;
+    padding:30px;
+    position:relative;
+    border-radius:5px;
+    box-shadow:0 0 15px 5px #ccc;
+    background-color:green;
+    
+}
+
+.badge {
+    position: absolute;
+}
+  
+.badge--round {
+border-radius: 50%;
+height: 15px;
+width: 15px;
+}
+
+
+.badge-active {
+background-color: var(--active);
+}
+
+.badge-inactive {
+background-color: var(--inactive);
+}
+
+.btn {
+    padding: 0.9rem 1.3rem;
+    border-radius: 0.8rem;
+}
+
+.btn-primary {
+    background-color: blue;
+}
+
+.btn-secondary {
+    background-color: gray;
+}
+
+.btn-success {
+    background-color: green;
+}
+
+.btn-danger {
+    background-color: red;
+}
+
+a:link {
+    background-color: gray;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+  }
+
+.btnfloat {
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.btnfloat .btn-primary {
+  font-size: 2rem;
+}
+
+.icon-badge-group .icon-badge-container {
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  .icon-badge-container {
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.icon-badge-icon {
+  font-size: 30px;
+  position: relative;
+}
+
+.notification {
+    position: relative;
+  }
+  
+  .notification-icon {
+    font-size: 4rem;
+  }
+  
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline-components {
+    display: inline;
+    padding: 0rem 0.5rem;
+    justify-content: left;
+    color: black;
+}
+
+.list-item-inline-github {
+    display: inline;
+    padding: 0rem 0.5rem;
+    justify-content: right;
+    color: black;
+}
+
+card {
+    display: flex;
+    width: 100%;
+  }
+  
+  .card--horizontal {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 50rem;
+  }
+  
+  .card--body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  
+  .card--s {
+    max-width: 20rem;
+  }
+  
+  .card--m {
+    max-width: 27rem;
+    height: auto;
+  }
+  
+  .card--l {
+    width: 32rem;
+  }
+  
+  .card--m .card--image {
+    position: relative;
+  }
+  
+  .card--m .card--image > img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card--body {
+    padding: 1.5rem;
+  }
+  
+  .card--title {
+    font-size: 2rem;
+  }
+
+.notify-badge{
+    position: absolute;
+    right:-20px;
+    top:10px;
+    background:orangered;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color:white;
+    padding:5px 10px;
+    font-size:20px;
+}
+  
+.image {
+    width: 100%;
+}
+  
+.card {
+    display: flex;
+    width: 60%;
+    border: 5px solid gray; 
+}
+
+.card horizontal {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    border-radius: 100%;
+  }
+  
+.card text .container {
+border: 5px solid black;
+}
+
+.card-shadow{
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.input {
+    width: 30%;
+    border: 2px solid black;
+
+}
+
+.error {
+    font-style: italic;
+    width: 30%;
+    border: 2px solid red;
+}
+
+.handle {
+    color: red;
+}
+
+.two {
+    display: grid;
+   grid-template-columns: 100px 100px;
+   grid-template-rows: 50px;
+}
+
+.three {
+    display: grid;
+   grid-template-columns: 100px 100px 100px;
+   grid-template-rows: 50px;
+}
+
+.row1 {
+    max-width: 20rem;
+    border: 1px solid black;
+}
+
+.row2 {
+    max-width: 20rem;
+    border: 1px solid black;
+}
+
+.row1 {
+    max-width: 20rem;
+    border: 1px solid black;
+}
+
+.row2 {
+    max-width: 20rem;
+    border: 1px solid black;
+}
+
+.row3 {
+    max-width: 20rem;
+    border: 1px solid black;
+}
+
+.items {
+    list-style: none;
+    border: black;
+    
+}
+
+.item {
+    max-width: 20rem;
+    padding: 2rem 4rem;
+    border: 1px solid black;
+}
+      
+.item-space {
+    max-width: 20rem;
+    padding: 2rem 4rem;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.list-item-inline {
+    display: inline;
+}
+
+.gray {
+    color: gray;
+}
+
+.center {
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: center;
+}
+
+.navigation {
+    font-weight: bold;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.navigation .link {
+    color: black;
+}
+
+.close {
+    background-color: red;
+}
+
+.Save {
+    background-color: red;
+}
+
+#myBtn {
+    background-color: gray;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+.modal-content {
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+}
+  
+#mySnackbar {
+    background-color: gray;
+}  
+
+#snackbar {
+    background-color: gray;
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+#snackbar.show {
+visibility: visible;
+-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
