@@ -104,18 +104,27 @@ background-color:white;
 }
   
 .badge--round {
-border-radius: 50%;
-height: 15px;
-width: 15px;
+    border-radius: 50%;
+
+    height: 15px;
+    width: 15px;
 }
 
+.badge-border {
+    border: 2px solid white;
+}
+
+.badge--top {
+    top: 10px;
+    right: 10px;
+}
 
 .badge-active {
-background-color: var(--active);
+    background-color: var(--active);
 }
 
 .badge-inactive {
-background-color: var(--inactive);
+    background-color: var(--inactive);
 }
 
 .btn {
@@ -145,7 +154,7 @@ a:link {
     padding: 10px 15px;
     text-align: center;
     display: inline-block;
-  }
+}
 
 .btnfloat {
   justify-content: center;
@@ -161,7 +170,7 @@ a:link {
 .icon-badge-group .icon-badge-container {
     display: inline-block;
     margin-left: 15px;
-  }
+}
 
 .icon-badge-container {
     margin-top: 20px;
@@ -176,7 +185,7 @@ a:link {
 
 .notification {
     position: relative;
-  }
+}
   
 .notification-icon {
     font-size: 4rem;
@@ -206,10 +215,10 @@ a:link {
     top:10px;
     background:orangered;
     text-align: center;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 3rem 3rem 3rem 3rem;
     color:white;
-    padding:5px 10px;
-    font-size:20px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
 }
   
 .image {
@@ -238,9 +247,9 @@ a:link {
 }
 
 .card-shadow{
-    width: 300px;
+    width: 325px;
     padding: 1.5rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
 .card dismiss {
@@ -419,13 +428,14 @@ width: 80%;
     left: 50%;
     bottom: 30px;
     font-size: 17px;
-  }
+}
   
 #snackbar.show {
 visibility: visible;
 -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
 animation: fadein 0.5s, fadeout 0.5s 2.5s;
-}
+} 
+
 
 .footer {
     background-color: var(--primary-color);

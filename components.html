@@ -81,10 +81,24 @@
    
     <p>Badge on avatars</p>
 
-    <div>
-        <div class="avatar-container"> <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg" alt="avatar" class="avatar avatar--s" /> <span class="badge badge--round  badge-active"></span> </div>
-        <div class="avatar-container"> <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg" alt="avatar" class="avatar avatar--s" /> <span class="badge badge--round  badge-inactive"></span> </div>
-    </div>
+        <div>
+            <div class="avatar-container">
+                <img
+                src="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg"
+                alt="avatar"
+                class="avatar avatar--s"
+                />
+                <span class="badge badge--round badge--top badge-border badge-active" ></span>
+            </div>
+            <div class="avatar-container">
+                <img
+                src="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg"
+                alt="avatar"
+                class="avatar avatar--s"
+                />
+                <span class="badge badge--round badge--top badge-border badge-inactive"></span>
+            </div>
+        </div>
     <br />
     <br />
     <br />
@@ -160,13 +174,13 @@
       <p> Card with shadow: </p>
       <div class="card-shadow">
         <img src="https://fimapay.com/en-uk/images/w3/avatar2.png" alt="" />
-        <div>
+        <!-- <div> -->
         <p>
             <strong>Card Title</strong> 
         </p>
-           <p>
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem saepe dignissimos sequi perferendis numquam repudiandae voluptates iusto consequuntur delectus omnis corporis beatae, sed accusamus vel expedita ratione adipisci voluptatum! In.
-              </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem saepe dignissimos sequi perferendis numquam repudiandae voluptates iusto consequuntur delectus omnis corporis beatae, sed accusamus vel expedita ratione adipisci voluptatum! In.
+        </p>
         </div>
       </div>
       <br />
@@ -249,7 +263,7 @@
       <p>Round image:</p>
       <div style="text-align: center;">
       <img src="https://thumbs.dreamstime.com/b/autumn-fall-nature-scene-autumnal-park-beautiful-77869343.jpg" alt="Nature" class="round">
-    </div>
+      </div>
       <br />
       <br />
       <br />
@@ -408,15 +422,8 @@
     <!-- Snackbar -->
     <h1>Snackbar</h1>
 
-<button id = "mySnackbar" onclick="Function()">Show Snackbar</button>
+ <button id = "mySnackbar" onclick="Function()">Show Snackbar</button>
 <div id="snackbar">Some text..</div>
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
    
 
 <script>
@@ -426,6 +433,13 @@ function Function() {
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000);
 }
 </script>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
  
 <footer class="footer">
     <div class="footer-header">Made with love :)</div>
